@@ -63,6 +63,7 @@ def todo_list():
             if not len(todo) == 0:
                 for index, item in enumerate(todo):
                     print(f"{index+1}) {item}")
+                print()
             else:
                 print("Your to-do list is empty.\n")
             
@@ -70,6 +71,7 @@ def todo_list():
             if not len(done) == 0:
                 for item in done:
                     print(f'- {item}')
+                print()
             else:
                 print("You haven't done any tasks yet.\n")
 
